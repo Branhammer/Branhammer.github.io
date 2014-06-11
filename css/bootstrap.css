@@ -754,6 +754,7 @@ pre code {
     width: 1170px;
   }
 }
+
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
@@ -3640,6 +3641,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-top-right-radius: 0;
 }
 .navbar {
+  box-shadow: 2px 2px 8px #000000;
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
