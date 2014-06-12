@@ -15,10 +15,27 @@ body{
 	box-shadow: 2px 2px 8px #000000;
 }
 
-.navbar{
+.navbar-nav{
+	float: none;
+	display:inline-block;
+}
 
+.navbar-nav > li > a{
+	color: #000000
+}
+
+.navbar-nav > li > a:link{
+	color: #000000
+}
+
+.navbar-nav > li > a:hover{
+	color: #ffffff
 }
 
 .navbar-inverse{
 	background-color: #292929;
+}
+
+.div_text{
+	text-align: center;
 }
