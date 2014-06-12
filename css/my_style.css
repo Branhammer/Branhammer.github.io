@@ -1,5 +1,7 @@
 body{
-	background-color: #E0E0E0;
+	/*background-color: #E0E0E0;*/
+	background-image: url('https://raw.githubusercontent.com/Branhammer/Branhammer.github.io/master/img/bg.png');
+	background-repeat: repeat;
 }
 
 .myFeed{
@@ -11,6 +13,10 @@ body{
 
 .feed_title{
 	box-shadow: 2px 2px 8px #000000;
+}
+
+.navbar{
+
 }
 
 .navbar-inverse{
