@@ -34,71 +34,36 @@
 <body>
      
      <!-- NAVBAR ================================================== -->
-
-     <div class="navbar-wrapper">
-          <div class="div_text">
-               <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <a class="navbar-brand" href="index.html">Branhammer Dev</a>
-                    <li class="dropdown">
-                         <a href="projects.html" class="dropdown-toggle" data-toggle="dropdown">Projects<span class="caret"></span></a>
-                         <ul class="dropdown-menu">
-                              <li><a href="projects.html">All Projects</a></li>
-                              <li class="divider"></li>
-                              <li class="dropdown-header">Current Projects</li>
-                              <li><a href="Featherweight-Camera">Featherweight Camera</a></li>
-                         </ul>
-                    </li>
-                    <li><a href="contact.html">Contact</a></li>
-               </ul>
-          </div>
+     
+     <div class="header"></div>
+     <div class="my-navbar-wrapper">
+          <ul class="my-navbar-list">
+               <li><a class="nav-link" href="index.html">Home</a></li>
+               <li><a class="nav-link" href="about.html">About</a></li>
+               <li class="logo-img"><a href="index.html"><img class="logo-nav" src="img/personal_logo-01.png"></a></li>
+               <li class="my-dropdown">
+                    <a class="nav-link" href="projects.html">Projects<span class="my-caret"></span></a>
+                    <ul class="my-dropdown-menu">
+                         <li><a href="projects.html">All Projects</a></li>
+                         <li class="dropdown-section"></li>
+                         <li class="dropdown-section-title">Current Projects</li>
+                         <li><a href="Featherweight-Camera">Featherweight Camera</a></li>
+                         <li><a href="">Placeholder</a></li>
+                         <li><a href="">Placeholder</a></li>
+                         <li><a href="">Placeholder</a></li>
+                         <li><a href="">Placeholder</a></li>
+                    </ul>
+               </li>
+               <li><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
      </div>
 
 
-    <!-- Carousel ================================================== -->
-
-     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-               <li data-target="#myCarousel" data-slide-to="1"></li>
-               <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-               <div class="item active">
-                    <img src="https://raw.githubusercontent.com/Branhammer/Branhammer.github.io/master/img/shooting.png" alt="Shooting Guns" align="middle" height="800">
-                    <div class="container">
-                         <div class="carousel-caption">
-                              <h1>Shooting Guns = Yes!</h1>
-                              <p>Click to read about my BYU Capstone project and experience.</p>
-                              <p><a class="btn btn-lg btn-primary" href="#" role="button">BYU Captsone Post</a></p>
-                         </div>
-                    </div>
-               </div>
-               <div class="item">
-                    <img src="https://raw.githubusercontent.com/Branhammer/Branhammer.github.io/master/img/climbing.png" alt="Climbing">
-                    <div class="container">
-                         <div class="carousel-caption">
-                              <h1>Fallen Lately?</h1>
-                              <p>Go to my about page to see my most recent climbs.</p>
-                              <p><a class="btn btn-lg btn-primary" href="about.html" role="button">About Me</a></p>
-                         </div>
-                    </div>
-               </div>
-               <div class="item">
-                    <img src="https://raw.githubusercontent.com/Branhammer/Branhammer.github.io/master/img/cool_design.png" alt="Design">
-                    <div class="container">
-                         <div class="carousel-caption">
-                              <h1>Interesting</h1>
-                              <p>I have been exploring design and asthetics. See what I've been working on at my projects page.</p>
-                              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse Projects</a></p>
-                         </div>
-                    </div>
-               </div>
+     <!-- Welcome Image ================================================== -->
+     <div>
+          <div class="header-img">
+               <img src="https://raw.githubusercontent.com/Branhammer/Branhammer.github.io/master/img/shooting.png">
           </div>
-          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
      </div>
 
      <!-- /.carousel -->

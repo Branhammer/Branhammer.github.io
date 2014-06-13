@@ -4,38 +4,127 @@ body{
 	background-repeat: repeat;
 }
 
+/*NAVIGATION*/
+
+.my-navbar-wrapper{
+	margin-top: 0px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 20;
+	text-align: center;
+}
+
+.my-navbar-list{
+	display: inline-block;
+	padding: 0;
+	list-style: none;
+}
+
+.my-navbar-list > li{
+	float: left;
+	display: block;
+}
+
+.nav-link{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+	padding-top: 40px;
+	width: 100px;
+}
+
+.nav-link:hover{
+	color: #ffffff; 
+	background-color: rgba(0,0,0,0.5);
+	text-decoration: none;
+}
+
+.logo-nav{
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	text-align: center;
+}
+
+.logo-img{
+	float: left;
+}
+
+.logo-img:hover{
+	opacity: .8;
+}
+
+	/*Dropdown*/
+
+	.my-dropdown-menu{
+		padding: 20px;
+		position: absolute;
+		visibility: hidden;
+		list-style: none;
+		display: block;
+		background-color: rgba(0,0,0,0.5);
+
+	}
+
+	.my-dropdown:hover .my-dropdown-menu{
+		visibility: visible;
+	}
+
+	.my-dropdown-menu > li > a{
+		display: block;
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+	.my-dropdown-menu > li > a:hover{
+		color: #DEDEDE;
+	}
+
+	.dropdown-section-title{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: #a8a8a8;
+	}
+
+	/*565px Responsive*/
+
+
+
+/*WELCOME IMAGE*/
+
+.header{
+	height: 75px;
+	background-color: #dedede;
+	box-shadow: 2px 2px 8px #000000;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 20;
+}
+
+.header-img{
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 100px;
+	box-shadow: 2px 2px 8px #000000;
+}
+
+.header-img > img{
+	width: 100%;
+}
+
+
+
+/*CLIMBING WIDGET*/
+
 .myFeed{
 	margin-top: 100px;
 	margin-right: 60px;
 	vertical-align: center;
-	text-align: center;
-}
-
-.feed_title{
-	box-shadow: 2px 2px 8px #000000;
-}
-
-.navbar-nav{
-	float: none;
-	display:inline-block;
-}
-
-.navbar-nav > li > a{
-	color: #000000
-}
-
-.navbar-nav > li > a:link{
-	color: #000000
-}
-
-.navbar-nav > li > a:hover{
-	color: #ffffff
-}
-
-.navbar-inverse{
-	background-color: #292929;
-}
-
-.div_text{
 	text-align: center;
 }
