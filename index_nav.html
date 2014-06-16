@@ -54,7 +54,8 @@
                          <li><a href="">Placeholder</a></li>
                     </ul>
                </li>
-               <li><a class="nav-link" href="contact.html">Contact</a></li>
+               <li onclick="showContactPage()"><a class="nav-link">Contact</a></li>
+               
           </ul>
      </div>
 
@@ -62,7 +63,7 @@
      <!-- Welcome Image ================================================== -->
      <div>
           <div class="header-img">
-               <img src="https://raw.githubusercontent.com/Branhammer/Branhammer.github.io/master/img/rap2.jpg">
+               <img src="https://raw.githubusercontent.com/Branhammer/Branhammer.github.io/master/img/rap2.JPG">
           </div>
      </div>
 
@@ -136,7 +137,10 @@
 
           <hr class="featurette-divider">
 
-      <!-- /END THE FEATURETTES -->
+          <!-- /END THE FEATURETTES -->
+
+
+
 
 
       <!-- FOOTER -->
@@ -145,7 +149,35 @@
                <p>&copy; 2014 Branhammer Development &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
           </footer>
 
-     </div><!-- /.container -->
+     </div><!-- /.container (Marketing) -->
+
+     <!-- Contact Div -->
+     <script>
+          function showContactPage(){
+               var pageVis = document.getElementById("page-content");
+               var contactVis = document.getElementById("contact-block");
+               pageVis.style.visibility = "visible";
+               contactVis.style.visibility = "visible";
+               pageVis.style.opacity = "1";
+               contactVis.style.opacity = "1";
+          }
+          function hideContactPage(){
+               var pageVis = document.getElementById("page-content");
+               var contactVis = document.getElementById("contact-block");
+               pageVis.style.opacity = "0";
+               contactVis.style.opacity = "0";
+               setTimeout(function(){
+                    pageVis.style.visibility = "hidden";
+                    contactVis.style.visibility = "hidden";
+               },500);    
+          }
+     </script>
+     <div id="page-content" onclick="hideContactPage()">
+          <div id="contact-block">
+               hello
+          </div>
+     </div>
+
 
 
      <!-- Bootstrap core JavaScript
@@ -156,5 +188,4 @@
      <script src="js/docs.min.js"></script>
 
 </body>
-
 </html>
