@@ -11,7 +11,7 @@
          <title>Branhammer</title>
 
          <!-- Bootstrap core CSS -->
-         <link href="css/bootstrap.css" rel="stylesheet">
+<!--          <link href="css/bootstrap.css" rel="stylesheet"> -->
 
          <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
          <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -53,15 +53,45 @@
           </ul>
      </div>
 
-     <div class="my-container">hi 1
-          <div class="circle-entry">hi 2
-               <div class="circle-img">hi 3
+     <!-- CONTACT DIV -->
+     <script>
+          function showContactPage(){
+               var pageVis = document.getElementById("page-content");
+               var contactVis = document.getElementById("contact-block");
+               pageVis.style.visibility = "visible";
+               contactVis.style.visibility = "visible";
+               pageVis.style.opacity = "1";
+               contactVis.style.opacity = "1";
+          }
+          function hideContactPage(){
+               var pageVis = document.getElementById("page-content");
+               var contactVis = document.getElementById("contact-block");
+               pageVis.style.opacity = "0";
+               contactVis.style.opacity = "0";
+               setTimeout(function(){
+                    pageVis.style.visibility = "hidden";
+                    contactVis.style.visibility = "hidden";
+               },500);    
+          }
+     </script>
+     <div id="page-content" onclick="hideContactPage()">
+          <div id="contact-block">
+               hello
+          </div>
+     </div>
+
+     <!-- PROJECTS PAGE -->
+
+     <div class="my-container">
+          <div class="circle-entry">
+               <div class="circle-img">
                </div>
-               <div class="circle-ex">hi 4
+               <div class="circle-ex">
+                    <h1>This is a test area</h1>
+                    <p>Does it look good?</p>
                </div>
           </div>
      </div>    
-
 
 </body>
 </html>

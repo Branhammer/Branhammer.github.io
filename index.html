@@ -59,6 +59,32 @@
           </ul>
      </div>
 
+     <!-- CONTACT DIV -->
+     <script>
+          function showContactPage(){
+               var pageVis = document.getElementById("page-content");
+               var contactVis = document.getElementById("contact-block");
+               pageVis.style.visibility = "visible";
+               contactVis.style.visibility = "visible";
+               pageVis.style.opacity = "1";
+               contactVis.style.opacity = "1";
+          }
+          function hideContactPage(){
+               var pageVis = document.getElementById("page-content");
+               var contactVis = document.getElementById("contact-block");
+               pageVis.style.opacity = "0";
+               contactVis.style.opacity = "0";
+               setTimeout(function(){
+                    pageVis.style.visibility = "hidden";
+                    contactVis.style.visibility = "hidden";
+               },500);    
+          }
+     </script>
+     <div id="page-content" onclick="hideContactPage()">
+          <div id="contact-block">
+               hello
+          </div>
+     </div>
 
      <!-- Welcome Image ================================================== -->
      <div>
@@ -150,35 +176,6 @@
           </footer>
 
      </div><!-- /.container (Marketing) -->
-
-     <!-- Contact Div -->
-     <script>
-          function showContactPage(){
-               var pageVis = document.getElementById("page-content");
-               var contactVis = document.getElementById("contact-block");
-               pageVis.style.visibility = "visible";
-               contactVis.style.visibility = "visible";
-               pageVis.style.opacity = "1";
-               contactVis.style.opacity = "1";
-          }
-          function hideContactPage(){
-               var pageVis = document.getElementById("page-content");
-               var contactVis = document.getElementById("contact-block");
-               pageVis.style.opacity = "0";
-               contactVis.style.opacity = "0";
-               setTimeout(function(){
-                    pageVis.style.visibility = "hidden";
-                    contactVis.style.visibility = "hidden";
-               },500);    
-          }
-     </script>
-     <div id="page-content" onclick="hideContactPage()">
-          <div id="contact-block">
-               hello
-          </div>
-     </div>
-
-
 
      <!-- Bootstrap core JavaScript
      ================================================== -->
