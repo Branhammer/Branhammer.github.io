@@ -32,37 +32,84 @@
      ?>
 
      <!-- PROJECTS PAGE -->
+     <div class="page-menu" id="top">
+          <div class="third">
+               <ul class="menu-list">
+                    <li class="menu-title"><a href="#mobile">MOBILE</a></li>
+                    <li class="menu-item"><a href="#camera">Featherweight Camera</a></li>
+                    <li class="menu-item"><a href="#compliment">Compliment Button</a></li>
+               </ul>
+          </div>
+          <div class="third">
+               <ul class="menu-list">
+                    <li class="menu-title"><a href="#design">DESIGN</a></li>
+                    <li class="menu-item">happy</li>
+                    <li class="menu-item">happy</li>
+               </ul>
+          </div>
+          <div class="third">
+               <ul class="menu-list">
+                    <li class="menu-title"><a href="#product">PRODUCT</a></li>
+                    <li class="menu-item">happy</li>
+                    <li class="menu-item">happy</li>
+               </ul>
+          </div>
+     </div>
 
-     <div class="my-container">
-          <div class="circle-entry">
+     <div class="my-container" style="margin-top: 250px;">
+          
+          <div class="section-title" id="mobile">MOBILE</div>
+          <div class="my-divider-cont">
+               <div class="my-divider"></div>
+               <div class="back-to-top">
+                    <a href="#top">Back to Top</a>
+               </div>
+          </div>
+
+          <div class="circle-entry" id="camera">
                <div class="circle-img">
-                    <img src="https://raw.githubusercontent.com/Branhammer/Branhammer.github.io/master/img/bless-you-test-01.png">
+                    <a href="http://branhammer.github.io/Featherweight-Camera/"><img src="img/mobile/featherweight_logo.png" style="background-color: #ffffff;"></a>
                </div>
                <div class="circle-ex">
-                    <h1>This is a test area</h1>
+                    <h1><a href="http://branhammer.github.io/Featherweight-Camera/">Featherweight Camera</a></h1>
                     <p>Does it look good?j;ldksfja;sdlkfja;lds kfja;lsdfkja;sldkfja;ldk fja;lkbna;lkfbna;lkdsna; lsdfkjas;ldka;lkjg;alkbja;lkdfnal;skdfja;lsdkfjas;ldkfjas;ldfkja;lskna;lbkna;ldskfja;lsdkfja;lsdkfn a;lsknb;alksd fja;lsdkfja;lsdknb;laksdn;laksfja ;lsdkbl;aksdjfal;ksdja;lgkha;lkbhalksdjalksdfja;lsdkbl;aknbakldsfja;lskdfja;lsdkfja;lkbnal;kdsfja;ldsk nvbal;kjdf;alskdjqiajeoaeijfwoeijfw;oaeijf;oif ja;wiejfpbapowigweinb;aoih t;oiahj;oiajf;aLKDfja;lkdfja;klj</p>
                </div>
           </div>
-          <div class="my-divider"></div>
-          <div class="circle-entry">
-               <div class="circle-img">
-                    <img src="https://raw.githubusercontent.com/Branhammer/Branhammer.github.io/master/img/bless-you-test-01.png">
-               </div>
-               <div class="circle-ex">
-                    <h1>This is a test area</h1>
-                    <p>Does it look good?</p>
+
+          <div class="my-divider-cont">
+               <div class="my-divider"></div>
+               <div class="back-to-top">
+                    <a href="#top">Back to Top</a>
                </div>
           </div>
-          <div class="my-divider"></div>
-          <div class="circle-entry">
+
+          <div class="circle-entry" id="compliment">
                <div class="circle-img">
-                    <img src="https://raw.githubusercontent.com/Branhammer/Branhammer.github.io/master/img/bless-you-test-01.png">
+                    <a href=""><img src="https://raw.githubusercontent.com/Branhammer/Branhammer.github.io/master/img/bless-you-test-01.png"></a>
                </div>
                <div class="circle-ex">
-                    <h1>This is a test area</h1>
-                    <p>Does it look good?</p>
+                    <h1>Compliment Button</h1>
+                    <p>You deserve a compliment... random compliment display</p>
                </div>
           </div>
+
+          <div class="section-title" id="design">DESIGN</div>
+          <div class="my-divider-cont">
+               <div class="my-divider"></div>
+               <div class="back-to-top">
+                    <a href="#top">Back to Top</a>
+               </div>
+          </div>
+
+          <div class="section-title" id="product">PRODUCT</div>
+          <div class="my-divider-cont">
+               <div class="my-divider"></div>
+               <div class="back-to-top">
+                    <a href="#top">Back to Top</a>
+               </div>
+          </div>
+
+          
      </div>    
 
 </body>
