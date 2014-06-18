@@ -137,13 +137,17 @@ body{
 		border-color: #aeaeae;
 	}
 
-/*CLIMBING WIDGET*/
-
-	.myFeed{
-		margin-top: 100px;
-		margin-right: 60px;
-		vertical-align: center;
+	.my-container{
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		z-index: 10;
+		margin-top: 150px;
 		text-align: center;
+		position: absolute;
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 
 /*CONTACT PAGE*/
@@ -181,17 +185,6 @@ body{
 	}
 
 /*PROJECTS PAGE*/
-	
-	.my-container{
-		top: 0;
-		right: 0;
-		left: 0;
-		bottom: 0;
-		z-index: 10;
-		margin-top: 150px;
-		text-align: center;
-		position: absolute;
-	}
 
 	.circle-entry{
 		height: 400px;
@@ -221,4 +214,18 @@ body{
 		width: 70%;
 		height: 100%;
 		z-index: 15;
+	}
+
+/*ABOUT PAGE*/
+	
+	.my-feed{
+		width: 30%;
+		min-width: 300px;
+		float: right;
+	}
+
+	.about{
+		width: 68%;
+		min-width: 400px;
+		float: left;
 	}
