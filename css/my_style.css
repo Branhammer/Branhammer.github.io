@@ -10,7 +10,7 @@ body{
 
 	.my-navbar-wrapper{
 		margin-top: 0px;
-		position: absolute;
+		position: fixed;
 		top: 0;
 		right: 0;
 		left: 0;
@@ -92,19 +92,17 @@ body{
 			color: #a8a8a8;
 		}
 
-		/*565px Responsive*/
-
 /*WELCOME IMAGE*/
 
 	.header{
 		height: 75px;
 		background-color: #dedede;
 		box-shadow: 2px 2px 8px #000000;
-		position: absolute;
+		position: fixed;
 		top: 0;
 		right: 0;
 		left: 0;
-		z-index: 10;
+		z-index: 15;
 		text-align: center;
 	}
 

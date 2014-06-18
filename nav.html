@@ -1,0 +1,52 @@
+<!-- NAVBAR ================================================== -->
+     
+     <div class="header"></div>
+     <div class="my-navbar-wrapper">
+          <ul class="my-navbar-list">
+               <li><a class="nav-link" href="index.php">Home</a></li>
+               <li><a class="nav-link" href="about.php">About</a></li>
+               <li class="logo-img"><a href="index.php"><img class="logo-nav" src="img/personal_logo-01.png"></a></li>
+               <li class="my-dropdown">
+                    <a class="nav-link" href="projects.php">Projects<span class="my-caret"></span></a>
+                    <ul class="my-dropdown-menu">
+                         <li><a href="projects.php">All Projects</a></li>
+                         <li class="dropdown-section"></li>
+                         <li class="dropdown-section-title">Current Projects</li>
+                         <li><a href="Featherweight-Camera">Featherweight Camera</a></li>
+                         <li><a href="">Compliment App</a></li>
+                         <li><a href="">Portfolio Webpage</a></li>
+                         <li><a href="">RMS</a></li>
+                         <li><a href="">Placeholder</a></li>
+                    </ul>
+               </li>
+               <li onclick="showContactPage()"><a class="nav-link">Contact</a></li>
+               
+          </ul>
+     </div>
+
+     <!-- CONTACT DIV -->
+     <script>
+          function showContactPage(){
+               var pageVis = document.getElementById("page-content");
+               var contactVis = document.getElementById("contact-block");
+               pageVis.style.visibility = "visible";
+               contactVis.style.visibility = "visible";
+               pageVis.style.opacity = "1";
+               contactVis.style.opacity = "1";
+          }
+          function hideContactPage(){
+               var pageVis = document.getElementById("page-content");
+               var contactVis = document.getElementById("contact-block");
+               pageVis.style.opacity = "0";
+               contactVis.style.opacity = "0";
+               setTimeout(function(){
+                    pageVis.style.visibility = "hidden";
+                    contactVis.style.visibility = "hidden";
+               },500);    
+          }
+     </script>
+     <div id="page-content" onclick="hideContactPage()">
+          <div id="contact-block">
+               hello
+          </div>
+     </div>
