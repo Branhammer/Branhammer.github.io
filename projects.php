@@ -10,29 +10,19 @@
 
          <title>Branhammer</title>
 
-         <!-- Bootstrap core CSS -->
-<!--          <link href="css/bootstrap.css" rel="stylesheet"> -->
-
-         <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-         <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-         <script src="js/ie-emulation-modes-warning.js"></script>
-
-         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-         <script src="js/ie10-viewport-bug-workaround.js"></script>
-
-         <!-- Custom styles for this template -->
          <link href="css/my_style.css" rel="stylesheet">
 
      </head>
 
-<body>
+<body id="top">
      
      <?php
           include 'nav.html';
      ?>
 
      <!-- PROJECTS PAGE -->
-     <div class="page-menu" id="top">
+
+     <div class="page-menu">
           <div class="third">
                <ul class="menu-list">
                     <li class="menu-title"><a href="#mobile">MOBILE</a></li>
@@ -43,28 +33,23 @@
           <div class="third">
                <ul class="menu-list">
                     <li class="menu-title"><a href="#design">DESIGN</a></li>
-                    <li class="menu-item">happy</li>
-                    <li class="menu-item">happy</li>
+                    <li class="menu-item"><a href="#brent">Brent Event</a></li>
+                    <li class="menu-item"><a href="#owlet">Owlet</a></li>
+                    <li class="menu-item"><a href="#family">Family</a></li>
                </ul>
           </div>
           <div class="third">
                <ul class="menu-list">
                     <li class="menu-title"><a href="#product">PRODUCT</a></li>
-                    <li class="menu-item">happy</li>
-                    <li class="menu-item">happy</li>
+                    <li class="menu-item"><a href="#rms">Rocky Mountain Safe</a></li>
                </ul>
           </div>
      </div>
 
-     <div class="my-container" style="margin-top: 250px;">
+     <div class="my-container">
           
           <div class="section-title" id="mobile">MOBILE</div>
-          <div class="my-divider-cont">
-               <div class="my-divider"></div>
-               <div class="back-to-top">
-                    <a href="#top">Back to Top</a>
-               </div>
-          </div>
+          <div class="my-divider"></div>
 
           <div class="circle-entry" id="camera">
                <div class="circle-img">
@@ -72,45 +57,72 @@
                </div>
                <div class="circle-ex">
                     <h1><a href="http://branhammer.github.io/Featherweight-Camera/">Featherweight Camera</a></h1>
-                    <p>Does it look good?j;ldksfja;sdlkfja;lds kfja;lsdfkja;sldkfja;ldk fja;lkbna;lkfbna;lkdsna; lsdfkjas;ldka;lkjg;alkbja;lkdfnal;skdfja;lsdkfjas;ldkfjas;ldfkja;lskna;lbkna;ldskfja;lsdkfja;lsdkfn a;lsknb;alksd fja;lsdkfja;lsdknb;laksdn;laksfja ;lsdkbl;aksdjfal;ksdja;lgkha;lkbhalksdjalksdfja;lsdkbl;aknbakldsfja;lskdfja;lsdkfja;lkbnal;kdsfja;ldsk nvbal;kjdf;alskdjqiajeoaeijfwoeijfw;oaeijf;oif ja;wiejfpbapowigweinb;aoih t;oiahj;oiajf;aLKDfja;lkdfja;klj</p>
-               </div>
-          </div>
-
-          <div class="my-divider-cont">
-               <div class="my-divider"></div>
-               <div class="back-to-top">
-                    <a href="#top">Back to Top</a>
+                    <p>Some text describing work on Featherweight Camera</p>
                </div>
           </div>
 
           <div class="circle-entry" id="compliment">
                <div class="circle-img">
-                    <a href=""><img src="https://raw.githubusercontent.com/Branhammer/Branhammer.github.io/master/img/bless-you-test-01.png"></a>
+                    <a href="projects/compliment.php"><img src=""></a>
                </div>
                <div class="circle-ex">
-                    <h1>Compliment Button</h1>
+                    <h1><a href="projects/compliment.php">Compliment Button</a></h1>
                     <p>You deserve a compliment... random compliment display</p>
                </div>
           </div>
 
           <div class="section-title" id="design">DESIGN</div>
-          <div class="my-divider-cont">
-               <div class="my-divider"></div>
-               <div class="back-to-top">
-                    <a href="#top">Back to Top</a>
+          <div class="my-divider"></div>
+
+          <div class="circle-entry" id="brent">
+               <div class="circle-img">
+                    <a href="projects/brent.php"><img src=""></a>
+               </div>
+               <div class="circle-ex">
+                    <h1><a href="projects/brent.php">Brent Event</a></h1>
+                    <p>Some text describing work on Brent Event</p>
+               </div>
+          </div>
+
+          <div class="circle-entry" id="owlet">
+               <div class="circle-img">
+                    <a href="projects/owlet.php"><img src=""></a>
+               </div>
+               <div class="circle-ex">
+                    <h1><a href="projects/owlet.php">Owlet</a></h1>
+                    <p>Some text describing work on Owlet</p>
+               </div>
+          </div>
+
+          <div class="circle-entry" id="family">
+               <div class="circle-img">
+                    <a href="projects/family.php"><img src=""></a>
+               </div>
+               <div class="circle-ex">
+                    <h1><a href="projects/family.php">Family</a></h1>
+                    <p>Some text describing work on Family</p>
                </div>
           </div>
 
           <div class="section-title" id="product">PRODUCT</div>
-          <div class="my-divider-cont">
-               <div class="my-divider"></div>
-               <div class="back-to-top">
-                    <a href="#top">Back to Top</a>
+          <div class="my-divider"></div>
+
+          <div class="circle-entry" id="rms">
+               <div class="circle-img">
+                    <a href="projects/rms.php"><img src=""></a>
+               </div>
+               <div class="circle-ex">
+                    <h1><a href="projects/rms.php">Rocky Mountain Safe</a></h1>
+                    <p>Some text describing work for Rocky Mountain Safe</p>
                </div>
           </div>
-
           
-     </div>    
+          <footer>
+               <p>&copy; 2014 Branhammer Development &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          </footer>
+
+     <!-- </div>  -->
+     </div>   
 
 </body>
 </html>
