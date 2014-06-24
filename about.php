@@ -27,7 +27,9 @@
     	<div class="about">
     		<div class="section-title" style="padding-top:0px;">About Me</div>
     		<p>
-    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    		Hello, I'm Steven Branham. I am an Electrical Engineering student at Brigham Young University. When I'm not working on engineering course work, I am thinking about new ventures. I'm always really excited about creating products that help other people. I'm constantly reevaluting my experience and talents trying to find ways to produce value. I believe that the right attitude and work ethic can dramatically improve the world. I'm looking to make my own little dent in the world.   
+    		</p>
+    		<p>As far as hobbies go, I have done a fair share of exciting things and I love them all. Most recently I have been addicted to sport climbing. You can check out the climbs I have done most recently in the feed below.
     		</p>
     	</div>
 		<div class="my-feed"> <!-- Website for feed: http://feed.mikle.com/ -->
@@ -51,7 +53,7 @@
 						corner: "on",
 						autoscroll: "on",
 						scrolldirection: "up",
-						scrollstep: "6",
+						scrollstep: "4",
 						mcspeed: "20",
 						sort: "New",
 						rssmikle_border: "solid",
@@ -86,7 +88,7 @@
 		</div>
 
 		<footer>
-               <p>&copy; 2014 Branhammer Development &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            <p>&copy; 2014 Branhammer Development &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
         </footer>
 
 	</div>

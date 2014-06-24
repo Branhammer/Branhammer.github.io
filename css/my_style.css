@@ -1,40 +1,54 @@
-body{
-	/*background-color: #E0E0E0;*/
-	background-image: url('https://raw.githubusercontent.com/Branhammer/Branhammer.github.io/master/img/bg.png');
-	background-repeat: repeat;
-	font-family: sans-serif;
-	font-size: 14px;
-	margin: 0px;
-}
+/*TYPES DEFINED*/
 
-h1,h2{
-	font-weight: 200;
-}
+	body{
+		/*background-color: #E0E0E0;*/
+		background-image: url('https://raw.githubusercontent.com/Branhammer/Branhammer.github.io/master/img/bg.png');
+		background-repeat: repeat;
+		font-family: sans-serif;
+		font-size: 14px;
+		margin: 0px;
+	}
 
-h1 > a{
-	text-decoration: none;
-	color: #000000;
-}
+	h1,h2{
+		font-weight: 200;
+	}
 
-h1 > a:hover{
-	color: #a8a8a8;
-}
+	h1 > a{
+		text-decoration: none;
+		color: #000000;
+	}
 
-p{
-	color: #666666;
-}
+	h1 > a:hover{
+		color: #a8a8a8;
+	}
 
-footer{
-	float: left;
-	font-family: sans-serif;
-	color: #888888;
-	padding-top: 20px;
-}
+	p{
+		color: #666666;
+	}
 
-footer > p > a{
-	text-decoration: none;
-	color: #1747ce;
-}
+	a:hover{
+		text-decoration: none;
+	}
+
+	a:visited{
+		text-decoration: none;
+	}
+
+	a:active{
+		text-decoration: none;
+	}
+
+	footer{
+		float: left;
+		font-family: sans-serif;
+		color: #888888;
+		padding-top: 20px;
+	}
+
+	footer > p > a{
+		text-decoration: none;
+		color: #1747ce;
+	}
 
 /*NAVIGATION*/
 
@@ -83,7 +97,7 @@ footer > p > a{
 		color: #000000;
 		text-decoration: none;
 		display: block;
-		padding-bottom: 20px;
+		padding-bottom: 15px;
 		padding-top: 20px;
 		width: 100px;
 	}
@@ -101,10 +115,13 @@ footer > p > a{
 		left: 50%;
 		margin-left: -50px;
 		z-index: 16;
+		transition: width 0.1s, height 0.1s, margin-left 0.1s;
 	}
 
 	.logo-nav:hover{
-		opacity: .8;
+		width: 110px;
+		height: 110px;
+		margin-left: -55px;
 	}
 
 		/*Dropdown*/
@@ -139,6 +156,30 @@ footer > p > a{
 				color: #a8a8a8;
 			}
 
+			.my-contact-dropdown-menu{
+				padding: 20px;
+				position: absolute;
+				visibility: hidden;
+				list-style: none;
+				display: block;
+				background-color: rgba(0,0,0,0.5);
+
+			}
+
+			.my-contact-dropdown:hover .my-contact-dropdown-menu{
+				visibility: visible;
+			}
+
+			.my-contact-dropdown-menu > li > a{
+				display: block;
+				color: #ffffff;
+				text-decoration: none;
+			}
+
+			.my-contact-dropdown-menu > li > a:hover{
+				color: #DEDEDE;
+			}
+
 /*HOME PAGE*/
 
 	.header-img{
@@ -166,6 +207,11 @@ footer > p > a{
 		vertical-align: top;
 	}
 
+	.talents > a:hover .talent-circle{
+		height: 150px;
+		width: 150px;
+	}
+
 	.featured{
 		width: 66%;
 		min-width: 400px;
@@ -178,8 +224,25 @@ footer > p > a{
 	.featured-image{
 		width: 300px;
 		height: 300px;
+		vertical-align: middle;
 		display: inline-block;
-		box-shadow: 2px 2px 8px #000000;
+		overflow: hidden;
+	}
+
+	.featured-image > a > img{
+		position: relative;
+		height: 80%;
+		display: inline-block;
+		top: 20%;
+		margin-top: -10%;
+		transition: box-shadow 2s, width 0.1s, height 0.1s, margin-top 0.1s, top 0.1s;
+	}
+
+	.featured-image > a > img:hover{
+		height: 90%;
+		top: 10%;
+		margin-top: -5%;
+		box-shadow: 0px 0px 10px #f37521;
 	}
 
 	.featured-heading{
@@ -194,7 +257,8 @@ footer > p > a{
 		width: 140px;
 		height: 140px;
 		border-radius: 50%;
-		box-shadow: 2px 2px 8px #000000;
+		/*box-shadow: 2px 2px 8px #000000;*/
+		transition: width 0.1s, height 0.1s;
 	}
 
 	.talent-text{
@@ -341,20 +405,29 @@ footer > p > a{
 		visibility: hidden;
 		opacity: 0;
 		transition: opacity 0.5s;
-		box-shadow: 0px 0px 20px #000000;
 		top: 8%;
 		width: 60%;
 		height: 84%;
-		border-radius: 25pt;
-		background-color: #E0E0E0;
 		position: fixed;
 		left: 20%;
+	}
+
+	.contact{
+		height: 100%;
+		width: 100%;
+		border-radius: 25pt;
+		border: none;
+		display: inline-block;
+		vertical-align: middle;
+		box-shadow: 0px 0px 20px #000000;
+		min-width: 350px;
+		min-height: 400px;
 	}
 
 /*PROJECTS PAGE*/
 
 	.circle-entry{
-		height: 200px;
+		height: 250px;
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
@@ -370,11 +443,18 @@ footer > p > a{
 		width: 200px;
 		height: 200px;
 		border-radius: 50%;
-		box-shadow: 2px 2px 8px #000000;
+		position: relative;
+		top: 50%;
+		margin-top: -100px;
+		/*box-shadow: 2px 2px 8px #000000;*/
+		transition: width 0.1s, height 0.1s, margin-top 0.1s;
 	}
 
 	.circle-img > a > img:hover{
-		opacity: 0.8;
+		width: 210px;
+		height: 210px;
+		margin-top: -105px;
+
 	}
 
 	.circle-ex{
@@ -383,6 +463,11 @@ footer > p > a{
 		width: 70%;
 		height: 100%;
 		z-index: 15;
+	}
+
+	.circle-ex > ul{
+		list-style: none;
+		padding-left: 0px;
 	}
 
 /*ABOUT PAGE*/
@@ -396,4 +481,25 @@ footer > p > a{
 	.about{
 		width: 100%;
 		min-width: 400px;
+	}
+
+/*PROJECT FOCUS PAGE*/
+	
+	.project-highlight{
+		width: 100%;
+	}
+
+	.project-high-image{
+		width: 80%;
+		min-width: 400px;
+		display: inline-block;
+		margin: 20px;
+	}
+
+	.project-high-image > img{
+		display: inline-block;
+	}
+
+	.project-high-text{
+
 	}

@@ -27,7 +27,7 @@
                <ul class="menu-list">
                     <li class="menu-title"><a href="#mobile">MOBILE</a></li>
                     <li class="menu-item"><a href="#camera">Featherweight Camera</a></li>
-                    <li class="menu-item"><a href="#compliment">Compliment Button</a></li>
+                    <li class="menu-item"><a href="#compliment">Validation</a></li>
                </ul>
           </div>
           <div class="third">
@@ -53,21 +53,30 @@
 
           <div class="circle-entry" id="camera">
                <div class="circle-img">
-                    <a href="http://branhammer.github.io/Featherweight-Camera/"><img src="img/mobile/featherweight_logo.png" style="background-color: #ffffff;"></a>
+                    <a href="http://branhammer.github.io/Featherweight-Camera/"><img src="img/mobile/featherweight/featherweight_logo.png" style="background-color: #ffffff;"></a>
                </div>
                <div class="circle-ex">
                     <h1><a href="http://branhammer.github.io/Featherweight-Camera/">Featherweight Camera</a></h1>
-                    <p>Some text describing work on Featherweight Camera</p>
+                    <p>Featherweight Camera is an android utility that allows users to take pictures and upload them directly to a Facebook album. Thus, the app saves users a few button presses and sharing headaches. However, I feel it's greatest value comes in with how it preserves space. Immediately after the photos are uploaded they are deleted from the local memory, leaving that storage room available for music and other data. I built Featherweight Camera primarily as a portfolio piece. I wanted to learn how to use API's and to brush up on some Java skills.</p>
+                    <ul>
+                         <li>Eclipse with Android libraries</li>
+                         <li>Facebook and Android API's</li>
+                         <li>Mobile design and layout</li>
+                    </ul>
                </div>
           </div>
 
           <div class="circle-entry" id="compliment">
                <div class="circle-img">
-                    <a href="projects/compliment.php"><img src=""></a>
+                    <a href="projects/compliment.php"><img src="img/mobile/compliment/compliment-logo-01.png"></a>
                </div>
                <div class="circle-ex">
-                    <h1><a href="projects/compliment.php">Compliment Button</a></h1>
-                    <p>You deserve a compliment... random compliment display</p>
+                    <h1><a href="projects/compliment.php">Validation</a></h1>
+                    <p>Validation is an android application based off of the concepts so clearly displayed in the short film <a href="">Validation</a>. The idea is that everyone possesses admirable attributes. Sometimes just a prase or quote can change our self persception. Validation is a tool to help people uplift and compliment those around them... or even themselves.</p>
+                    <ul>
+                         <li>Eclipse with Android libraries</li>
+                         <li>Mobile design and layout</li>
+                    </ul>
                </div>
           </div>
 
@@ -76,31 +85,42 @@
 
           <div class="circle-entry" id="brent">
                <div class="circle-img">
-                    <a href="projects/brent.php"><img src=""></a>
+                    <a href="projects/brent.php"><img src="img/design/brent-event/brent_event_circle.png"></a>
                </div>
                <div class="circle-ex">
                     <h1><a href="projects/brent.php">Brent Event</a></h1>
-                    <p>Some text describing work on Brent Event</p>
+                    <p>The Brent Event is a celebration and fundraiser run in Sugarland, TX and more recently in Provo, UT. My friend was in charge of organizing the Provo Event in 2013 and asked for my help. Click to read more about the event and how I contributed.</p>
+                    <ul>
+                         <li>Adobe Illustrator for logos, flyers and banners</li>
+                         <li>Race timing and logistics</li>
+                    </ul>
                </div>
           </div>
 
           <div class="circle-entry" id="owlet">
                <div class="circle-img">
-                    <a href="projects/owlet.php"><img src=""></a>
+                    <a href="projects/owlet.php"><img src="img/design/owlet/owlet_w.png"></a>
                </div>
                <div class="circle-ex">
                     <h1><a href="projects/owlet.php">Owlet</a></h1>
-                    <p>Some text describing work on Owlet</p>
+                    <p>Owlet is an exciting company. I've been lucky to have been close by during a lot of their growth. Having worked with a number of thier founding team in Venture Factory and the Crocker Innovaiton Fellowship I slipped in one summer to help with designing products for thier Kickstarter backers.</p>
+                    <ul>
+                         <li>Adobe Illustrator</li>
+                    </ul>
                </div>
           </div>
 
           <div class="circle-entry" id="family">
                <div class="circle-img">
-                    <a href="projects/family.php"><img src=""></a>
+                    <a href="projects/family.php"><img src="img/design/family/family-circle-01.png"></a>
                </div>
                <div class="circle-ex">
                     <h1><a href="projects/family.php">Family</a></h1>
-                    <p>Some text describing work on Family</p>
+                    <p>I have taken a few opportunities to do some fun design projects for my family. One summer I did shirt for our <a href="">Ultimate Relay</a> team. On a couple of other occasions I designed some simple gifts for the family. Click to see more...</p>
+                    <ul>
+                         <li>Adobe Illustrator</li>
+                         <li>Managing the order and delivery process</li>
+                    </ul>
                </div>
           </div>
 
@@ -113,7 +133,14 @@
                </div>
                <div class="circle-ex">
                     <h1><a href="projects/rms.php">Rocky Mountain Safe</a></h1>
-                    <p>Some text describing work for Rocky Mountain Safe</p>
+                    <p>Rocky Mountain Safe (RMS) sponsored my BYU Capstone project. I had a blast helping design and build a prototype of one of thier products. We build a smart gun safe that provides quick and secure access to a loaded home defense weapon. RMS is hoping to launch a revised version of the product this winter!</p>
+                    <ul>
+                         <li>Product Management</li>
+                         <li>Documentaiton and Reporting</li>
+                         <li>Solidworks</li>
+                         <li>Engineering Drawings</li>
+                         <li>Machinging and other prototyping techniques</li>
+                    </ul>
                </div>
           </div>
           
