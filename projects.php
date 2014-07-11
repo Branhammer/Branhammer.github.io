@@ -83,6 +83,40 @@
           <div class="section-title" id="design">DESIGN</div>
           <div class="my-divider"></div>
 
+          <div class="circle-entry" id="allpat">
+               <div class="circle-img">
+                    <a href="projects/allpat.php"><img src="img/design/allpat/ap-circle-01.png"></a>
+               </div>
+               <div class="circle-ex">
+                    <h1><a href="projects/allpat.php">AllPat</a></h1>
+                    <p>
+                         AllPat is a patent drafting company. I co-founded the group with my brother, a practicing patent attorney. The idea is that organizations with in-house patent counsel either have excess patent work or they would like to make better use of their lawyers time. The AllPat service frees attorneys to work on material more sensitive to their attention.
+                    </p>
+                    <ul>
+                         <li>Adobe Illustrator logo adjustments and website elements</li>
+                         <li>HTML, CSS and JS for website (<a href="http://allpat.net">allpat.net</a>)</li>
+                         <li>Contact and Client management</li>
+                    </ul>
+               </div>
+          </div>
+
+          <div class="circle-entry" id="website">
+               <div class="circle-img">
+                    <a href="projects/allpat.php"><img src="img/bless-you-test-01.png"></a>
+               </div>
+               <div class="circle-ex">
+                    <h1><a href="projects/allpat.php">Portfolio Website</a></h1>
+                    <p>
+                         I have wanted a way to keep track of the things that I know and showcase my talents for some time. I now have designed and built my own portfolio website... and I'm talking about my website... on my website. That's some kind of inception, right?
+                    </p>
+                    <ul>
+                         <li>Adobe Illustrator for personal logo and image adjustments</li>
+                         <li>HTML, CSS and JS</li>
+                         <li>Hosting and Domain aquisition and management</li>
+                    </ul>
+               </div>
+          </div>
+
           <div class="circle-entry" id="brent">
                <div class="circle-img">
                     <a href="projects/brent.php"><img src="img/design/brent-event/brent_event_circle.png"></a>

@@ -7,7 +7,7 @@
          <meta name="viewport" content="width=device-width, initial-scale=1">
          <meta name="description" content="Steven Branhams Portfolio Home">
          <meta name="author" content="Steven Branham">
-         <link rel="icon" href="">
+         <link rel="icon" href="img/personal_logo-01.png">
 
          <title>Branhammer</title>
 
@@ -21,51 +21,51 @@
      <?php
           include 'nav.html';
      ?>
-
-     <!-- Welcome Image ================================================== -->
-     <div>
+     <div class="splash">
           <div class="header-img">
-               <img src="https://raw.githubusercontent.com/Branhammer/Branhammer.github.io/master/img/rap2.JPG">
+               <img src="img/awesome-mountain-bg.jpg">
+          </div>
+          <div class="section" style="height: 350px; top: 50%; margin-top: -175px; background-color: rgba(0,0,0,0.5);">
+               <a href="projects.php#mobile">
+                    <div class="talents">
+                         <!-- <a href="projects.php#mobile"><img class="talent-circle" src="img/mobile/featherweight/featherweight_logo_circle.png" alt="Featherweight Camera Logo"></a> -->
+                         <h2>Mobile Development</h2>
+                         <div class="talent-text">
+                              <p>My first app is now in the Google Play store! I have more mobile projects on the way. Contact me if you're looking for mobile development help.</p>
+                         </div>
+                         <!-- <p><a class="my-button" href="projects.php#mobile">More &raquo;</a></p> -->
+                    </div>
+               </a>
+               <a href="projects.php#design">
+                    <div class="talents">
+                         <!-- <a href="projects.php#design"><img class="talent-circle" src="img/design/brent-event/brent_event_circle.png" alt="Brent Event Logo"></a> -->
+                         <h2>Design</h2>
+                         <div class="talent-text">
+                              <p>I really enjoy using well designed software. I've been working on creating better workflows and more intuitive interfaces. Check out my layouts and designs!</p>
+                         </div>
+                         <!-- <p><a class="my-button" href="projects.php#design">More &raquo;</a></p> -->
+                    </div>
+               </a>
+               <a href="projects.php#product">
+                    <div class="talents">
+                         <!-- <a href="projects.php#product"><img class="talent-circle" src="img/product/rms/sketch_circle.png" alt="Sketch for RMS Project"></a> -->
+                         <h2>Product Development</h2>
+                         <div class="talent-text">
+                              <p>I've done a lot of work in product management. Take a look at some of the projects I've worked on. Let me know if there is any way that I can help you!</p>
+                         </div>
+                         <!-- <p><a class="my-button" href="projects.php#product">More &raquo;</a></p> -->
+                    </div>
+               </a>
           </div>
      </div>
-
-     <!-- /.Welcome Image -->
+     <div id="more">
+          <p>Scroll Down for More</p>
+     </div>
 
      <!-- Marketing messaging and featurettes ================================================== -->
      <!-- Wrap the rest of the page in another container to center all the content. -->
 
-     <div class="my-container">
-
-          <div class="section" style="height: 350px;">
-               <div class="talents">
-                    <a href="projects.php#mobile"><img class="talent-circle" src="img/mobile/featherweight/featherweight_logo_circle.png" alt="Featherweight Camera Logo"></a>
-                    <h2>Mobile Development</h2>
-                    <div class="talent-text">
-                         <p>I now have my first app in the Google Play store! I have more on the way. Contact me if you're looking for mobile development help.</p>
-                    </div>
-                    <p><a class="my-button" href="projects.php#mobile">More &raquo;</a></p>
-               </div>
-               <div class="talents">
-                    <a href="projects.php#design"><img class="talent-circle" src="img/design/brent-event/brent_event_circle.png" alt="Brent Event Logo"></a>
-                    <h2>Design</h2>
-                    <div class="talent-text">
-                         <p>I really enjoy using well designed software. I've been working on creating better workflows and more intuitive interfaces. Check out my layouts and designs!</p>
-                    </div>
-                    <p><a class="my-button" href="projects.php#design">More &raquo;</a></p>
-               </div>
-               <div class="talents">
-                    <a href="projects.php#product"><img class="talent-circle" src="img/product/rms/sketch_circle.png" alt="Sketch for RMS Project"></a>
-                    <h2>Product Development</h2>
-                    <div class="talent-text">
-                         <p>I've done a lot of work in product management. Take a look at some of the projects I've worked on. Let me know if there is any way that I can help you!</p>
-                    </div>
-                    <p><a class="my-button" href="projects.php#product">More &raquo;</a></p>
-               </div>
-          </div>
-
-     <!-- START THE FEATURETTES -->
-
-          <div class="my-divider"></div>
+     <div class="my-container" style="top: 700px;">
           
           <div class="section">
                <div class="featured">
