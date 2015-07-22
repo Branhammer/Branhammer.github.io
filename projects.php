@@ -11,13 +11,14 @@
          <title>Branhammer</title>
 
          <link href="css/my_style.css" rel="stylesheet">
+         <link href="css/project_page.css" rel="stylesheet">
 
      </head>
 
 <body id="top">
      
      <?php
-          include 'nav.html';
+          include 'nav.php';
      ?>
 
      <!-- PROJECTS PAGE -->
@@ -53,10 +54,10 @@
 
           <div class="circle-entry" id="camera">
                <div class="circle-img">
-                    <a href="http://branhammer.github.io/Featherweight-Camera/"><img src="img/mobile/featherweight/featherweight_logo.png" style="background-color: #ffffff;"></a>
+                    <a href="projects/featherweight.php"><img src="img/mobile/featherweight/featherweight_logo.png" style="background-color: #ffffff;"></a>
                </div>
                <div class="circle-ex">
-                    <h1><a href="http://branhammer.github.io/Featherweight-Camera/">Featherweight Camera</a></h1>
+                    <h1><a href="projects/featherweight.php">Featherweight Camera</a></h1>
                     <p>Featherweight Camera is an android utility that allows users to take pictures and upload them directly to a Facebook album. Thus, the app saves users a few button presses and sharing headaches. However, I feel it's greatest value comes in with how it preserves space. Immediately after the photos are uploaded they are deleted from the local memory, leaving that storage room available for music and other data. I built Featherweight Camera primarily as a portfolio piece. I wanted to learn how to use API's and to brush up on some Java skills.</p>
                     <ul>
                          <li>Eclipse with Android libraries</li>
@@ -178,12 +179,6 @@
                </div>
           </div>
           
-          <footer>
-               <p>&copy; 2014 Branhammer Development &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-          </footer>
-
-     <!-- </div>  -->
-     </div>   
-
-</body>
-</html>
+     <?php
+          include 'footer.php';
+     ?>

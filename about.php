@@ -18,7 +18,7 @@
 <body>.
      
      <?php
-          include 'nav.html';
+          include 'nav.php';
      ?>
 
      <!-- CONTENT ================================================ -->
@@ -87,11 +87,6 @@
 			</div><!-- end feedwind code -->
 		</div>
 
-		<footer>
-            <p>&copy; 2014 Branhammer Development &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-        </footer>
-
-	</div>
-
-</body>
-</html>
+	<?php
+    	include 'footer.php';
+    ?>

@@ -1,0 +1,93 @@
+.circle-entry{
+	height: 250px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.circle-img{
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+.circle-img > a > img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: relative;
+	top: 50%;
+	margin-top: -100px;
+	/*box-shadow: 2px 2px 8px #000000;*/
+	transition: width 0.1s, height 0.1s, margin-top 0.1s;
+}
+
+.circle-img > a > img:hover{
+	width: 210px;
+	height: 210px;
+	margin-top: -105px;
+
+}
+
+.circle-ex{
+	display: inline-block;
+	float: right;
+	width: 70%;
+	height: 100%;
+	z-index: 15;
+}
+
+.circle-ex > ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+/*PAGE MENU*/
+	.page-menu{
+		width: 100%;
+		padding-top: 20px;
+		margin-top: 80px;
+		padding-bottom: 20px;
+		display: inline-table;
+		table-layout: fixed;
+	}
+
+	.third{
+		height: 100%;
+		display: table-cell;
+		width: 33%;
+		text-align: center;
+	}
+
+	.menu-list{
+		padding: 0px;
+	}
+
+	.menu-item{
+		list-style: none;
+		margin: 5px;
+	}
+
+	.menu-item > a{
+		text-decoration: none;
+		color: #000000;
+	}
+
+	.menu-item > a:hover{
+		color: #a8a8a8;
+	}
+
+	.menu-title{
+		list-style: none;
+		font-size: 18px;
+		font-weight: 200;
+	}
+
+	.menu-title > a{
+		text-decoration: none;
+		color: #f37521;
+	}
+
+	.menu-title > a:hover{
+		color: #E0E0E0;
+	}

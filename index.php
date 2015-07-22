@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
      <head>
@@ -10,22 +9,21 @@
          <link rel="icon" href="img/personal_logo-01.png">
 
          <title>Branhammer</title>
-
          <link href="css/bootstrap.css" rel="stylesheet">
          <link href="css/my_style.css" rel="stylesheet">
-
      </head>
 
 <body>
      
      <?php
-          include 'nav.html';
+          include 'nav.php';
      ?>
+     
      <div class="splash">
           <div class="header-img">
-               <img src="img/awesome-mountain-bg.jpg">
+               <img src="img/aOcWqRTfQ12uwr3wWevA_14401305508_804b300054_o.jpg">
           </div>
-          <div class="section" style="height: 350px; top: 50%; margin-top: -175px; background-color: rgba(0,0,0,0.5);">
+          <div class="section" id="talentContainer">
                <a href="projects.php#mobile">
                     <div class="talents">
                          <!-- <a href="projects.php#mobile"><img class="talent-circle" src="img/mobile/featherweight/featherweight_logo_circle.png" alt="Featherweight Camera Logo"></a> -->
@@ -74,7 +72,7 @@
                </div>
                <div class="featured-image">
                     <a href="projects/owlet.php">
-                         <img src="img/design/owlet/owlet_w.png" alt="Owlet Logo">
+                         <img src="img/design/owlet/owlet_alpha.png" alt="Owlet Logo">
                     </a>
                </div>
           </div>
@@ -102,7 +100,7 @@
                </div>
                <div class="featured-image">
                     <a href="">
-                         <img src="img/design/venture-factory/sioy_shirt_w.png" alt="SIOY">
+                         <img src="img/design/venture-factory/SIOY_shirt_icon_alpha.png" alt="SIOY">
                     </a>
                </div>
           </div>
@@ -110,13 +108,7 @@
           <div class="my-divider"></div>
 
      <!-- /END THE FEATURETTES -->
-
-     <!-- FOOTER -->
-          <footer>
-               <p>&copy; 2014 Branhammer Development &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-          </footer>
-
-     </div>
-
-</body>
-</html>
+     <script src="js/home-specific.js"></script>
+     <?php
+          include 'footer.php';
+     ?>
